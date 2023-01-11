@@ -1,0 +1,92 @@
+@font-face {
+    font-family: myFont;
+    src: url(Quantum.otf);
+}
+h1 .navigation{
+    font-family: myFont;
+}
+
+@font-face {
+    font-family: myFont1;
+    src: url(Dream\ Orphans.otf);
+}
+p label{
+    font-family: myFont1;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+    
+  }
+
+body {
+    margin: 25px;
+    background-color: #e2c8e7;
+    font-size: 14px;
+    
+  }
+
+
+/*Header side */ 
+  .navigation
+  {
+    background-color: #983FAA;
+    margin: auto;
+    width: 90%;
+    border: 1px solid #000000;
+    padding: 10px 0;
+    margin-bottom: 100px;
+    block-size: 80px;
+    text-indent: 25px;
+    word-spacing: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: myFont;
+  }
+  #logo 
+  {
+      margin: 15px; /* margin: 20px was off */
+      height: 50px;
+      float: left;
+  }
+
+  .navigation a{
+    color: white;
+    margin-left: 40px;   
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 60px;
+
+}
+
+
+
+/*Footer side */ 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #e2c8e7;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  .footer-right {
+    float: right;
+  }
+  
+  .footer-right img {
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+  }
+  

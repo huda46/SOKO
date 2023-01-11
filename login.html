@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOKO</title>
+    <meta charset="UTF-8"/>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    
+   <style>
+    .body{
+        margin: 0;
+        padding: 0;
+        height: 100vh
+    }
+    .loginCenter{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        background: #983FAA;
+        border-radius: 10px;
+    }
+    .loginCenter h1{   
+        text-align: center;
+        padding: 0 0 20px 0; 
+   
+        font-family: myFont;
+    } 
+    .loginCenter form{   
+        padding: 0 30px;
+        box-sizing: border-box;
+        font-family: myFont;
+    } 
+    form .textField{
+        position: relative;
+        margin: 30px 0;
+    }
+   .textField input{
+        width: 100%;
+        padding: 0 5px;
+        height: 40px;
+        font-size: 16px;
+        border: white;
+        background: white;
+        outline: black;
+        
+    }
+
+    .textField span::before{
+        content: '';
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 0%;
+        height: 2px;
+        background: #2691d9;
+        transition: .5s;
+    }
+
+    input[type="submit"]{
+        display: inline-block;
+        width: 49%;
+        height: 50px;
+        border: 1px solid;
+        background: #b880c4;
+        border-radius: 25px;
+        font-size: 18px;
+        color: #e9f4fb;
+        font-weight: 700;
+        cursor: pointer;
+        outline: none;
+        font-family: myFont;
+    }
+
+
+
+   </style>
+
+</head>
+<body>
+ 
+    <header>
+        <a href="#"><img id="logo" alt="" src="/home/huda/TAREA/assignment-2a/website-content/images/soko_logo.svg"></a><!--here change yr path-->
+        <div class="navigation">
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="courses.html">Courses</a>
+            <a href="exam.html">Exam</a>
+            <a href="walloffame.html">Wall Of Fame</a>
+            <a href="career.html">Career</a>
+          </div>
+    </header>
+
+    <div class="loginCenter">
+        <h1 style="color: white;">Login</h1>
+        <form method="post">
+            <div class="textField"> 
+                <label style="color: white;">Email</label>
+                <input type="text"> 
+                <span></span> 
+               
+            </div>
+            <div class="textField">
+                <label style="color: white;">Password</label>
+                <input type="password">
+                <span></span> 
+            </div>
+            <div class="pass" style="color: white;"><a href="forgot.html">Forgot Password?</a></div>
+            <input type="submit" value="Login">
+            <input type="submit" value="Sign-Up" formaction="/home/huda/TAREA/assignment-2b/signup.html"><!--here change yr path-->
+        </form>
+
+    </div>
+  
+        <footer>
+            <div class="container">
+                <div class="footer-right">
+                    <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/instagram-logo.png" alt="Instagram logo"></a><!--here change yr path-->
+                    <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/twitter-logo.png" alt="Twitter logo"></a>
+                    <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/facebook-logo.png" alt="Facebook logo"></a>
+                </div>
+            </div>
+        </footer> 
+
+    
+
+</body>
+</html>

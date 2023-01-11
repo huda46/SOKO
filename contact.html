@@ -1,0 +1,178 @@
+<html> 
+    <head>
+        <title>contact</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <style>
+        .contact-box{
+            width: 500px;
+            background-color: #ffffff;
+            box-shadow: 0 0 20px 0 rgb(255, 255, 255);
+            top: 50%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+}
+form
+{
+    margin: 35px;
+    font-family: myFont;
+}
+.input-field
+{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+    font-family: myFont;
+}
+.textarea-field
+{
+    height: 150px;
+    padding-top: 10px;
+}
+.btn
+{
+    border: 20px;
+    color: #000000;
+    margin-top: 30px;
+    padding: 11px;
+    background-color: #ffffff;
+    font-size: 12px;
+    border: solid;
+    cursor: pointer;;
+    font-family: myFont;
+}
+.block {
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+    left: 70px;
+}
+
+.image-w img { 
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.block .image-w {
+    float: left;
+}
+
+.block .text-w {
+    float: left;
+    font-family: myfont;
+}
+
+@media (min-width: 40em) {
+
+    .block {
+        padding-top: 3em; 
+    }
+
+    .block .image-w {
+        max-width: 15em;
+        margin-right: 2em;
+    }
+
+    .oposite-block .image-w {
+        float: right;
+    }
+
+    .block .text-w {
+        float: none;
+        max-width: 50em;
+    }
+
+} 
+.container 
+{
+    vertical-align: 20%;
+}
+
+.block img
+{
+    width: 100px;
+    height: 100px;
+}
+
+
+    </style>
+    <body>
+    <!--Header-->
+    <header>
+        <a href="#"><img id="logo" src="/home/huda/TAREA/assignment-2a/website-content/images/soko_logo.svg"></a>
+        <div class="navigation">
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="courses.html">Courses</a>
+            <a href="exam.html">Exam</a>
+            <a href="walloffame.html">Wall Of Fame</a>
+            <a href="career.html">Career</a>
+          </div>
+    </header>
+        <div class="container">
+            <div class="block">
+                <div class="image-w">
+                    <img src="/home/huda/TAREA/assignment-2b/images/Location.PNG" alt="" /> <!-- Don't forget to change the image link so it connects. -->
+                </div>
+                <div class="text-w">
+                    <p><b>SOKO Cottbus</b></p>
+                    <p>403-5, Erich Wienert Str 4, App. 403-5, 03046, Cottbus</p>
+                    <p>+49-10015252329</p>
+                    <p>cottbus@soko.com</p>
+                </div>
+            </div> 
+            <div class="block">
+                <div class="image-w">
+                    <img src="/home/huda/TAREA/assignment-2b/images/Location.PNG" alt="" /> <!-- Don't forget to change the image link so it connects. -->
+                </div>
+                <div class="text-w">
+                    <p><b>SOKO Mumbai</b></p>
+                    <p>F-8, Wenden Avenue, Central Railway Quarters,</p>
+                    <p>Matunga, Mumbai, 400019</p>
+                    <p>+91-7738649869</p>
+                    <p>mumbai@soko.com</p>
+                </div>
+            </div> 
+            <div class="block">
+                <div class="image-w">
+                    <img src="/home/huda/TAREA/assignment-2b/images/Location.PNG" alt="" /> <!-- Don't forget to change the image link so it connects. -->
+                </div>
+                <div class="text-w">
+                    <p><b>SOKO La Paz</b></p>
+                    <p>21 Calacoto Street, General Inofuentes Avenue, 1515</p>
+                    <p>+591-72515554</p>
+                    <p>la_paz@soko.com</p>
+                </div>
+            </div>
+        <div class="contact-box">
+            <form>
+                <div class="row">
+                    <h1>Message us</h1>
+                </div>
+            <input type="email" class ="input-field" placeholder="Email">
+            <input type="text" class ="input-field textarea-field" placeholder="Text">   
+            <button type ="button" class="btn">Submit</button> 
+            </form>
+        </div>
+        <footer>
+            <div class="container">
+              <div class="footer-right">
+                <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/instagram-logo.png" alt="Instagram logo"></a><!--here change yr path-->
+                <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/twitter-logo.png" alt="Twitter logo"></a>
+                <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/facebook-logo.png" alt="Facebook logo"></a>
+              </div>
+            </div>
+          </footer>         
+    </body>
+</html>

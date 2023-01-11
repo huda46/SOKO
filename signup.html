@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOKO</title>
+    <meta charset="UTF-8"/>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    
+   <style>
+
+.body{
+        margin: 0;
+        padding: 0;
+        height: 100vh
+        overflow: hidden;
+    }
+    .signupCenter{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        background: #983FAA;
+        border-radius: 10px;
+    }
+    .signupCenter h1{   
+        text-align: center;
+        padding: 0 0 20px 0; 
+        border-bottom: 1px solid white;
+        color: white;
+        font-family: myFont;
+    } 
+    .signupCenter form{   
+        padding: 0 40px;
+        box-sizing: border-box;
+    } 
+    form .textField{
+        position: relative;
+        margin: 30px 0;
+        color: white;
+        font-family: myFont;
+    }
+    .textField input{
+        width: 100%;
+        padding: 0 5px;
+        height: 40px;
+        font-size: 16px;
+        border: white;
+        background: white;
+        outline: white;
+      
+    }
+
+    input[type="submit"]{
+        display: inline-block;
+        width: 49%;
+        height: 50px;
+        border: 1px so8lid;
+        background: #b880c4;
+        border-radius: 25px;
+        font-size: 18px;
+        color: #e9f4fb;
+        font-weight: 700;
+        cursor: pointer;
+        outline: none;
+        font-family: myFont;
+   
+    }
+
+
+
+   </style>
+
+</head>
+<body>
+ 
+    <!--Header-->
+    <header>
+        <a href="#"><img id="logo" alt="" src="/home/huda/TAREA/assignment-2a/website-content/images/soko_logo.svg"></a><!--here change yr path-->
+        <div class="navigation">
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="courses.html">Courses</a>
+            <a href="exam.html">Exam</a>
+            <a href="walloffame.html">Wall Of Fame</a>
+            <a href="career.html">Career</a>
+          </div>
+    </header>
+          <!--Main-->
+
+    <div class="signupCenter">
+        <h1>Sign Up</h1>
+        <form method="post">
+            <div class="textField"> 
+                <label>*Name</label>
+                <input type="text"> 
+                <span></span> 
+            </div>
+            <div class="textField"> 
+                <label>*Email</label>
+                <input type="text"> 
+                <span></span> 
+            </div>
+            <div class="textField">
+                <label>*Password</label>
+                <input type="password"> 
+                <span></span> 
+            </div>
+            <div class="textField">
+                <label>*Re-type Password</label>
+                <input type="password"> 
+                <span></span> 
+            </div>
+            <div class="pass">learn more</div>
+            <p> I agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p> 
+            <input type="submit" value="Sign-up">
+            <input type="submit" value="Already a user" formaction="file:///home/huda/TAREA/assignment-2b/login.html"><!--here change yr path-->
+        </form>
+
+    </div>
+    
+    <!--Footer -->
+
+    <footer>
+        <div class="container">
+          <div class="footer-right">
+            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/instagram-logo.png" alt="Instagram logo"></a><!--here change yr path-->
+            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/twitter-logo.png" alt="Twitter logo"></a>
+            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/facebook-logo.png" alt="Facebook logo"></a>
+          </div>
+        </div>
+      </footer> 
+
+
+    
+
+</body>
+</html>
