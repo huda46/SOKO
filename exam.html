@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exam Registration</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <meta charset="UTF-8">
+
+  <style>
+    header {
+      margin-bottom: -30px;
+    }
+
+    main {
+      margin-top: -20px;
+    }
+
+
+    h1 {
+      text-align: center;
+      font-family: myFont;
+      color: #000000;
+    }
+
+
+    form {
+      text-align: center;
+      margin: 50px auto;
+    }
+
+    div {
+      display: block;
+    }
+
+    label,
+    input,
+    select {
+      font-size: 18px;
+      margin: 10px auto;
+    }
+
+    input[type="text"] {
+      width: 9%;
+    }
+
+    label[for="exam-time"],
+    input[type="time"] {
+      display: inline-block;
+
+
+    }
+
+    form .textField {
+      position: relative;
+      margin: 30px 0;
+      color: white;
+    }
+
+    .textField input {
+      width: 100%;
+      padding: 0 5px;
+      height: 40px;
+      font-size: 16px;
+      border: white;
+      background: white;
+      outline: white;
+      font-size: 14px;
+      font-family: myfont1;
+    }
+
+    .textField select {
+      width: 100%;
+      height: 40px;
+      font-size: 14px;
+      font-family: myfont1;
+    }
+
+
+
+    input[type="submit"] {
+      display: inline-block;
+      width: 49%;
+      height: 50px;
+      border: 1px;
+      background: #b880c4;
+      border-radius: 25px;
+      font-size: 18px;
+      color: #e9f4fb;
+      font-weight: 700;
+      cursor: pointer;
+      outline: none;
+
+
+    }
+
+    .box {
+      width: 50%;
+      margin: 0 auto;
+      background: #983FAA;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+
+    body {
+      text-align: center;
+      font-size: 14px;
+      font-family: myfont1;
+    }
+  </style>
+
+
+
+</head>
+
+
+
+<body>
+
+  <!--Header-->
+  <header>
+
+    <a href="index.html"><img id="logo" src="soko_logo.svg" alt="Soko Logo"></a>
+    <div class="navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+      <a href="courses.html">Courses</a>
+      <a href="exam.html">Exam</a>
+      <a href="walloffame.html">Wall Of Fame</a>
+      <a href="career.html">Career</a>
+    </div>
+  </header>
+
+  <!--Main-->
+  <main>
+    <div class="box">
+
+
+      <h1>Exam Registration</h1>
+      <form>
+        <div class="textField">
+          <label>*Name</label>
+          <input type="text" required>
+          <span></span>
+        </div>
+        <div class="textField">
+          <label>*Last Name</label>
+          <input type="text" required>
+          <span></span>
+        </div>
+        <div class="textField">
+          <label>*Date of Birth</label>
+          <input type="date" min="1920-01-01" max="2023-01-01" required>
+          <span></span>
+        </div>
+        <div class="textField">
+          <label>*Passport No.</label>
+          <input type="text" required>
+          <span></span>
+        </div>
+        <div class="textField">
+          <label>*Location</label>
+          <select id="location">
+            <option value="">--Please choose an option--</option>
+            <option value="mumbai">Mumbai </option>
+            <option value="la-paz">La Paz </option>
+            <option value="cottbus">Cottbus </option>
+          </select>
+          <span></span>
+        </div>
+        <div class="textField">
+          <label>*Language</label>
+          <select id="language">
+            <option value="">--Please choose an option--</option>
+            <option value="hindi">Hindi</option>
+            <option value="spanish">Spanish</option>
+            <option value="german">German</option>
+          </select>
+          <span></span>
+        </div>
+        <div class="textField">
+          <label>*Exam Date</label>
+          <input type="date" min="2023-01-01" max="2023-12-31" required>
+          <span></span>
+        </div>
+        <div class="textField">
+          <label>*Exam Time</label>
+          <input type="time" min="08:00" max="18:00" required>
+          <span></span>
+        </div>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </main>
+
+
+  <!--Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-right">
+        <a href="https://www.instagram.com/"><img src="instagram-logo.png" alt="Instagram logo"></a>
+        <a href="https://www.twitter.com/"><img src="twitter-logo.png" alt="Twitter logo"></a>
+        <a href="https://www.facebook.com/"><img src="facebook-logo.png" alt="Facebook logo"></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
