@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <meta charset="UTF-8">
+    <title>contact</title>
+
+    <style>
+        @font-face {
+            font-family: myFont;
+            src: url(Quantum.otf);
+        }
+
+        h1 .navigation {
+            font-family: myFont;
+        }
+
+        @font-face {
+            font-family: myFont1;
+            src: url(Dream\ Orphans.otf);
+        }
+
+        p label {
+            font-family: myFont1;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        body {
+            background-color: #e2c8e7;
+            font-family: myFont1;
+        }
+
+        .contact-box {
+            width: 500px;
+            background-color: #e2c8e7;
+            box-shadow: 0 0 20px 0 #e2c8e7;
+            top: 50%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+        }
+
+        form {
+            margin: 35px;
+        }
+
+        .input-field {
+            width: 400px;
+            height: 40px;
+            margin-top: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border: 1px solid #e2c8e7;
+            border-radius: 14px;
+            outline: none;
+        }
+
+        .textarea-field {
+            height: 150px;
+            padding-top: 10px;
+        }
+
+        .btn {
+            border: solid 2px;
+            color: #000000;
+            margin-top: 30px;
+            padding: 11px;
+            background-color: #e2c8e7;
+            font-size: 12px;
+            font-family: myFont1;
+            cursor: pointer;
+            ;
+        }
+
+        .block {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            left: 10px;
+        }
+
+        .image-w img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .block .image-w {
+            float: left;
+        }
+
+        .block .text-w {
+            float: left;
+        }
+
+        @media (min-width: 40em) {
+
+            .block {
+                padding-top: 1.5em;
+            }
+
+            .block .image-w {
+                max-width: 15em;
+                margin-right: 2em;
+            }
+
+            .block .text-w {
+                float: none;
+                max-width: 50em;
+            }
+
+        }
+
+        .container {
+            vertical-align: 20%;
+        }
+
+        .block img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .navigation {
+            background-color: #983FAA;
+            margin: auto;
+            width: 90%;
+            border: 1px solid #000000;
+            padding: 10px 0;
+            margin-bottom: 100px;
+            text-indent: 25px;
+            word-spacing: 10px;
+            text-align: center;
+            font-size: 18px;
+            font-family: myFont;
+
+        }
+
+        .navigation a {
+            color: white;
+            margin-left: 40px;
+            display: inline-block;
+            margin: 0 8px;
+            line-height: 60px;
+
+        }
+
+        #logo {
+            margin: 15px;
+            float: left;
+            height: 50px;
+            width: auto;
+            border-radius: 10%;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #e2c8e7;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 0;
+
+        }
+
+        .footer-right {
+            float: right;
+        }
+
+        .footer-right img {
+            width: 32px;
+            height: 32px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img id="logo" src="logo.svg" alt="Soko logo"></a>
+        <!-- Don't forget to change the logo link so it connects. Also "#"-->
+        <div class="navigation">
+            <a class="active"
+                href="index.html">Home</a><!-- Don't forget to add the links of other pages. Change the "#" part. -->
+            <a href="about.html">About</a><!-- Don't forget to add the links of other pages. Change the "#" part. -->
+            <a
+                href="contact.html">Contact</a><!-- Don't forget to add the links of other pages. Change the "#" part. -->
+            <a href="login.html">Login</a><!-- Don't forget to add the links of other pages. Change the "#" part. -->
+            <a
+                href="courses.html">Courses</a><!-- Don't forget to add the links of other pages. Change the "#" part. -->
+            <a href="exam.html">Exam</a><!-- Don't forget to add the links of other pages. Change the "#" part. -->
+            <a href="walloffame.html">Wall Of
+                Fame</a><!-- Don't forget to add the links of other pages. Change the "#" part. -->
+            <a href="#career.html">Career</a><!-- Don't forget to add the links of other pages. Change the "#" part. -->
+        </div>
+    </header>
+    <div class="container">
+        <div class="block">
+            <div class="image-w">
+                <img src="Location.png" alt="map photo"> <!-- Don't forget to change the image link so it connects. -->
+            </div>
+            <div class="text-w">
+                <p><b>SOKO Cottbus</b></p>
+                <p>403-5, Erich Wienert Str 4, App. 403-5, 03046, Cottbus</p>
+                <p>+49-10015252329</p>
+                <p>cottbus@soko.com</p>
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="image-w">
+                <img src="Location.png" alt="map photo"> <!-- Don't forget to change the image link so it connects. -->
+            </div>
+            <div class="text-w">
+                <p><b>SOKO Mumbai</b></p>
+                <p>F-8, Wenden Avenue, Central Railway Quarters,</p>
+                <p>Matunga, Mumbai, 400019</p>
+                <p>+91-7738649869</p>
+                <p>mumbai@soko.com</p>
+            </div>
+        </div>
+        <div class="block">
+            <div class="image-w">
+                <img src="Location.png" alt="map photo"> <!-- Don't forget to change the image link so it connects. -->
+            </div>
+            <div class="text-w">
+                <p><b>SOKO La Paz</b></p>
+                <p>21 Calacoto Street, General Inofuentes Avenue, 1515</p>
+                <p>+591-72515554</p>
+                <p>la_paz@soko.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="contact-box">
+        <form>
+            <div class="row">
+                <h1>Message us</h1>
+            </div>
+            <input type="email" class="input-field" placeholder="Email">
+            <input type="text" class="input-field textarea-field" placeholder="Text">
+            <button type="button" class="btn">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-right">
+                <a href="https://www.instagram.com"><img src="instagram-logo.png" alt="Instagram logo"></a>
+                <!-- Don't forget to change the logo link so it connects. Also the "#" for the instagram link. -->
+                <a href="https://www.twitter.com"><img src="twitter-logo.png" alt="Twitter logo"></a>
+                <!-- Don't forget to change the logo link so it connects. Also the "#" for the twitter link.-->
+                <a href="https://www.facebook.com"><img src="facebook-logo.png" alt="Facebook logo"></a>
+                <!-- Don't forget to change the logo link so it connects. Also the "#" for the facebook link. -->
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

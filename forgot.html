@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <meta charset="UTF-8">
+  <title>Forgot</title>
+
+  <style>
+    @font-face {
+      font-family: myFont;
+      src: url(Quantum.otf);
+    }
+
+    h1.navigation {
+      font-family: myFont;
+    }
+
+    @font-face {
+      font-family: myFont1;
+      src: url(Dream\ Orphans.otf);
+    }
+
+    p label {
+      font-family: myFont1;
+    }
+
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      list-style: none;
+
+    }
+
+    .navigation {
+      background-color: #983FAA;
+      margin: auto;
+      width: 90%;
+      border: 1px solid #000000;
+      padding: 10px 0;
+      margin-bottom: 100px;
+      text-indent: 25px;
+      word-spacing: 10px;
+      text-align: center;
+      font-size: 18px;
+      font-family: myFont;
+    }
+
+    #logo {
+      margin: 15px;
+      height: 50px;
+      float: left;
+      width: auto;
+      border-radius: 10%;
+
+    }
+
+    .navigation a {
+      color: white;
+      margin-left: 40px;
+      display: inline-block;
+      margin: 0 8px;
+      line-height: 60px;
+
+    }
+
+    body {
+      background: #e2c8e7;
+      font-family: myFont1;
+      text-align: center;
+      position: relative;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    form {
+      width: 500px;
+      padding: 16px;
+      border: 1px solid rgb(0, 0, 0);
+      background: #e2c8e7;
+      margin-left: 200px;
+      margin-top: 50px;
+    }
+
+    .right-side {
+      display: inline-block;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-left: 90px;
+      margin-top: 70px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 30px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+
+    button[type="submit"] {
+      width: 100%;
+      background-color: #983FAA;
+      color: rgb(0, 0, 0);
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: myFont1;
+    }
+
+    button[type="button"] {
+      width: 100%;
+      background-color: #983FAA;
+      color: rgb(0, 0, 0);
+      padding: 25px 1px;
+      margin: 20px 50px;
+      border: 1px solid rgb(0, 0, 0);
+      border-radius: 1px;
+      cursor: pointer;
+      font-family: myFont1;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #e2c8e7;
+
+    }
+
+    .footercontainer {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px 0;
+    }
+
+    .footer-right {
+      float: right;
+    }
+
+    .footer-right img {
+      width: 32px;
+      height: 32px;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href="index.html"><img id="logo" src="logo.svg" alt="Soko logo"></a>
+    <!-- Don't forget to change the logo link so it connects. -->
+    <div class="navigation">
+      <a class="active" href="index.html">Home</a>
+      <!-- Don't forget to add the links of other pages. Change the "#" part. -->
+      <a href="about.html">About</a> <!-- Don't forget to add the links of other pages. Change the "#" part. -->
+      <a href="contact.html">Contact</a> <!-- Don't forget to add the links of other pages. Change the "#" part. -->
+      <a href="login.html">Login</a> <!-- Don't forget to add the links of other pages. Change the "#" part. -->
+      <a href="courses.html">Courses</a> <!-- Don't forget to add the links of other pages. Change the "#" part. -->
+      <a href="exam.html">Exam</a> <!-- Don't forget to add the links of other pages. Change the "#" part. -->
+      <a href="walloffame.html">Wall Of Fame</a>
+      <!-- Don't forget to add the links of other pages. Change the "#" part. -->
+      <a href="career.html">Career</a> <!-- Don't forget to add the links of other pages. Change the "#" part. -->
+    </div>
+  </header>
+
+  <h1>Forgot Password</h1>
+  <div class="container">
+    <form>
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="email"><br>
+      <br>
+      <button type="submit">Get new password</button>
+    </form>
+    <div class="right-side">
+      <button type="button" onclick="window.location.href='login.html'">ALREADY A USER?</button>
+      <button type="button" onclick="window.location.href='signup.html'">SIGN UP</button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footercontainer">
+      <div class="footer-right">
+        <a href="https://www.instagram.com"><img src="instagram-logo.png" alt="Instagram logo"></a>
+        <!-- Don't forget to change the logo link so it connects. Also the "#" for the instagram link. -->
+        <a href="https://www.twitter.com"><img src="twitter-logo.png" alt="Twitter logo"></a>
+        <!-- Don't forget to change the logo link so it connects. Also the "#" for the twitter link.-->
+        <a href="https://www.facebook.com"><img src="facebook-logo.png" alt="Facebook logo"></a>
+        <!-- Don't forget to change the logo link so it connects. Also the "#" for the facebook link.-->
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
