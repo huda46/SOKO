@@ -69,6 +69,21 @@
         font-family: myFont;
    
     }
+       
+       button[type="button"] {
+        display: inline-block;
+        width: 49%;
+        height: 50px;
+        border: 1px so8lid;
+        background: #b880c4;
+        border-radius: 25px;
+        font-size: 18px;
+        color: #e9f4fb;
+        font-weight: 700;
+        cursor: pointer;
+        outline: none;
+        font-family: myFont;
+    }
 
 
 
@@ -119,7 +134,7 @@
             <div class="pass">learn more</div>
             <p> I agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p> 
             <input type="submit" value="Sign-up">
-            <input type="submit" value="Already a user" formaction='login.html'><!--here change yr path-->
+            <button type="button" onclick="window.location.href='login.html'">Already a User</button>
         </form>
 
     </div>
