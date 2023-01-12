@@ -75,7 +75,20 @@
         outline: none;
         font-family: myFont;
     }
-
+     button[type="button"] {
+        display: inline-block;
+        width: 49%;
+        height: 50px;
+        border: 1px solid;
+        background: #b880c4;
+        border-radius: 25px;
+        font-size: 18px;
+        color: #e9f4fb;
+        font-weight: 700;
+        cursor: pointer;
+        outline: none;
+        font-family: myFont;
+    }
 
 
    </style>
@@ -113,7 +126,7 @@
             </div>
             <div class="pass" style="color: white;"><a href="forgot.html">Forgot Password?</a></div>
             <input type="submit" value="Login">
-            <<input type="submit" value="Sign-Up" formaction="signup.html"></div>
+            <button type="button" onclick="window.location.href='signup.html'">Sign Up</button>
         </form>
 
     </div>
