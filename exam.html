@@ -44,7 +44,7 @@
 
 
       <h1 id="exam-h1">Exam Registration</h1>
-      <form id="exam-form">
+      <!-- <form id="exam-form">
         <div class="textField">
           <label id="label-exam">*Name</label>
           <input type="text" required>
@@ -96,6 +96,59 @@
           <span></span>
         </div>
 
+        <input type="submit" value="Submit">
+      </form> -->
+      <form id="exam-form">
+        <div class="textField">
+          <label for="name-input">*Name</label>
+          <input type="text" id="name-input" required>
+          <span></span>
+        </div>
+        <div class="textField">
+          <label for="last-name-input">*Last Name</label>
+          <input type="text" id="last-name-input" required>
+          <span></span>
+        </div>
+        <div class="textField">
+          <label for="dob-input">*Date of Birth</label>
+          <input type="date" id="dob-input" min="1920-01-01" max="2023-01-01" required>
+          <span></span>
+        </div>
+        <div class="textField">
+          <label for="passport-input">*Passport No.</label>
+          <input type="text" id="passport-input" required>
+          <span></span>
+        </div>
+        <div class="textField">
+          <label for="location-select">*Location</label>
+          <select id="location-select">
+            <option value="">--Please choose an option--</option>
+            <option value="mumbai">Mumbai </option>
+            <option value="la-paz">La Paz </option>
+            <option value="cottbus">Cottbus </option>
+          </select>
+          <span></span>
+        </div>
+        <div class="textField">
+          <label for="language-select">*Language</label>
+          <select id="language-select">
+            <option value="">--Please choose an option--</option>
+            <option value="hindi">Hindi</option>
+            <option value="spanish">Spanish</option>
+            <option value="german">German</option>
+          </select>
+          <span></span>
+        </div>
+        <div class="textField">
+          <label for="exam-date-input">*Exam Date</label>
+          <input type="date" id="exam-date-input" min="2023-01-01" max="2023-12-31" required>
+          <span></span>
+        </div>
+        <div class="textField">
+          <label for="exam-time-input">*Exam Time</label>
+          <input type="time" id="exam-time-input" min="08:00" max="18:00" required>
+          <span></span>
+        </div>
         <input type="submit" value="Submit">
       </form>
     </div>
