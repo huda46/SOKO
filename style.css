@@ -991,6 +991,13 @@ footer a {
   margin-right: 20px;
 } */
 
+.icons {
+  position: absolute;
+  bottom: 0;
+  right: 25px;
+  color: #ce5937;
+}
+
 .icons > img {
   width: 25px;
   height: 25px;
