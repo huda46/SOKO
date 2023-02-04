@@ -1,147 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="This is the webpage where you can see if there is a job opening in this institution."
-    />
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="This is the webpage for contacting our offices.">
     <meta name="keywords" content="Course, Exam, Language, Spanish, German, Hindi">
 
-    <title>Job Opportunities</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
 
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org/",
-  "@type": "JobPosting",
-  "title": "Teacher",
-  "description": "Part-time, Spanish, Mumbai.",
-  "hiringOrganization" : {
-    "@type": "Organization",
-    "name": "SOKO",
-    "sameAs": "https://sokolucifer.netlify.app/index.html"
-  },
-  "workHours": "8am-2pm",
-  "datePosted": "2023-01-04",
-  "validThrough": "2023-03-28",
-  "jobLocation": {
-    "@type": "Place",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "F-8, Wenden Avenue, Central Railway Quarters,Matunga",
-      "addressLocality": "Mumbai",
-      "postalCode": "400019",
-      "addressCountry": "IN"
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "SOKO",
+      "image": "/images/soko_logo.png",
+      "@id": "",
+      "url": "https://sokolucifer.netlify.app/contact.html",
+      "telephone": "+49-10015252329",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "403-5, Erich Wienert Str 4, App. 403-5,",
+        "addressLocality": "Cottbus",
+        "postalCode": "03046",
+        "addressCountry": "DE"
+      }  
     }
-  }
-}
-</script>
+    </script>
+    
+    
 
 
+    <title>CONTACT</title>
 
-  </head>
+</head>
 
-  <body>
-    <!--Header-->
+<body id="contact-body">
     <header>
-      <a href="index.html"
-        ><img id="logo" alt="Logo of Soko" src="./images/soko_logo.png"
-      /></a>
-      <div class="navigation">
-        <a class="active" href="index.html">Home</a>
-        <a href="courses.html">Courses</a>
-        <a href="exam.html">Exam</a>
-        <a href="login.html">Login</a>
-        <a href="about.html">About</a>
-      </div>
+        <a href="index.html"><img id="logo-contact" alt="Image of SOKO logo" src="./images/soko_logo.png"></a>
+        <div class="navigation">
+            <a class="active" href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="exam.html">Exam</a>
+            <a href="login.html">Login</a>
+            <a href="about.html">About</a>
+        </div>
     </header>
+    <div class="container-contact">
+        <div class="block">
+            <div class="image-w">
+                <img src="./images/Location.PNG" style="border-radius: 50px;"
+                    alt="Photo of a map in google maps in a random location. ">
+                <!-- Don't forget to change the image link so it connects. -->
+            </div>
+            <div class="text-w">
+                <h3><b>SOKO Cottbus</b></h3>
+                <p>403-5, Erich Wienert Str 4, App. 403-5, 03046, Cottbus</p>
+                <p>+49-10015252329, Email: cottbus@soko.com</p>
+            </div>
+        </div>
 
-    <!--Main-->
-    <main id="main-career">
-      <h1 id="job-opportun">Job Opportunities</h1>
-      <br />
-      <br />
-      <div class="card">
-        <h2>Teacher</h2>
-        <br />
-        <hr />
-        <p>Part-time</p>
-        <p>Spanish</p>
-        <p>Mumbai</p>
-      </div>
-      <div class="card">
-        <h2 id="teach">Teacher</h2>
-        <hr />
-        <p>Full-time</p>
-        <p>Hindi</p>
-        <p>La Paz</p>
-      </div>
-      <div class="card">
-        <h2>Teacher</h2>
-        <br />
-        <hr />
-        <p>Part-time</p>
-        <p>German</p>
-        <p>La Paz</p>
-      </div>
-      <div class="card">
-        <h2>Teacher</h2>
-        <br />
-        <hr />
-        <p>Full-time</p>
-        <p>Hindi</p>
-        <p>Cottbus</p>
-      </div>
-      <div class="card">
-        <h2>Clerk</h2>
-        <br />
-        <hr />
-        <p>Part-time</p>
-        <p>German</p>
-        <p>Cottbus</p>
-      </div>
-      <p>_________________________________________________</p>
-      <p>SOKO is the global online learning platform that offers anyone,</p>
-      <p>anywhere access to online courses and degrees from world-class</p>
-      <p>universities and companies. SOKO was founded in 2023 by SOKO Group</p>
-      <p>
-        with a vision of providing life-transforming learning experiences to
-        learners.
-      </p>
-      <p>¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯</p>
-      <p>________</p>
-      <p>JOIN US!</p>
-      <p>¯¯¯¯¯¯¯¯</p>
-    </main>
+        <div class="block">
+            <div class="image-w">
+                <img src="./images/Location.PNG" style="border-radius: 50px;"
+                    alt="Photo of a map in google maps in a random location.">
+                <!-- Don't forget to change the image link so it connects. -->
+            </div>
+            <div class="text-w">
+                <h3><b>SOKO Mumbai</b></h3>
+                <p>F-8, Wenden Avenue, Central Railway Quarters,Matunga, Mumbai, 400019</p>
+                <p>+91-7738649869, Email: mumbai@soko.com</p>
+            </div>
+        </div>
+        <div class="block">
+            <div class="image-w">
+                <img src="./images/Location.PNG" style="border-radius: 50px;"
+                    alt="Photo of a map in google maps in a random location.">
+                <!-- Don't forget to change the image link so it connects. -->
+            </div>
+            <div class="text-w">
+                <h3><b>SOKO La Paz</b></h3>
+                <p>21 Calacoto Street, General Inofuentes Avenue, 1515</p>
+                <p>+591-72515554, Email: la_paz@soko.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="message-box">
+        <h3>Message Us</h3>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <form id="messageus-form">
+            <label for="email-input">Email:</label>
+            <input id="email-input" type="email" name="email">
+            <br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <br><br>
+            <input id="submit-contact" type="submit" value="Submit">
+        </form>
+    </div>
 
-    <footer id="footer-index" style="margin-top: 2rem">
-      <div class="footer-links">
-        <p><a href="contact.html">Contact</a></p>
-        <p><a href="walloffame.html">Wall of Fame</a></p>
-        <p><a href="career.html">Career</a></p>
-      </div>
-      <div>
-        <a href="https://instagram.com">
-          <img src="./images/instagram-logo.png" alt="Instagram logo" />
-        </a>
-        <a href="https://twitter.com">
-          <img src="./images/twitter-logo.png" alt="Twitter logo" />
-        </a>
-        <a href="https://facebook.com">
-          <img src="./images/facebook-logo.png" alt="Facebook logo" />
-        </a>
-      </div>
+
+    <footer id="footer-index" style="margin-top: 2rem;">
+        <div class="footer-links">
+            <p><a href="contact.html">Contact</a></p>
+            <p><a href="walloffame.html">Wall of Fame</a></p>
+            <p><a href="career.html">Career</a></p>
+        </div>
+        <div>
+            <a href="https://instagram.com">
+                <img src="./images/instagram-logo.png" alt="Instagram logo">
+            </a>
+            <a href="https://twitter.com">
+                <img src="./images/twitter-logo.png" alt="Twitter logo">
+            </a>
+            <a href="https://facebook.com">
+                <img src="./images/facebook-logo.png" alt="Facebook logo">
+            </a>
+        </div>
     </footer>
-  </body>
+
+</body>
+
 </html>
