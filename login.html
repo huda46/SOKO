@@ -3,15 +3,15 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SOKO</title>
+  <title>Login</title>
   <meta charset="UTF-8" />
+  <meta name="description" content="This is the webpage where you can login to your account.">
+  <meta name="keywords" content="Course, Exam, Language, Spanish, German, Hindi">
 
-  <link rel="stylesheet" href="style.css">
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-
-
-
+  <link rel="stylesheet" href="style.css">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -19,8 +19,25 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-
-
+  
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "SOKO",
+      "image": "/images/soko_logo.png",
+      "@id": "",
+      "url": "https://sokolucifer.netlify.app/contact.html",
+      "telephone": "+49-10015252329",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "403-5, Erich Wienert Str 4, App. 403-5,",
+        "addressLocality": "Cottbus",
+        "postalCode": "03046",
+        "addressCountry": "DE"
+      }  
+    }
+    </script>
 </head>
 
 <body id="login-body">
@@ -38,8 +55,11 @@
   </header>
 
   <div class="loginCenter">
+    <br>
     <h1 style="color: white;">Login</h1>
-    <form method="post">
+    <br>
+    <hr>
+    <!-- <form method="post">
       <div class="textField">
         <label style="color: white;">Email</label>
         <input type="text">
@@ -51,21 +71,44 @@
         <input type="password">
         <span></span>
       </div>
-      <div class="pass" style="color: white;"><a href="forgot.html">Forgot Password?</a></div>
-      <input type="submit" value="Login">
-      <button type="button" onclick="window.location.href='signup.html'">Sign Up</button>
-    </form>
+      <div><a href="forgot.html">Forgot
+          Password?</a></div>
+      <br>
+      <hr>
+      <input style="float: left; margin-top: 3rem;" class="exam-submit" type="submit" value="Login">
+      <button style="float: right; margin-top: 3rem;" class="exam-submit" type="button"
+        onclick="window.location.href='signup.html'">Sign
+        Up</button>
 
+    </form> -->
+    <form method="post">
+      <div class="textField">
+        <label for="email" style="color: white;">Email</label>
+        <input id="email" type="text">
+        <span></span>
+      </div>
+      <div class="textField">
+        <label for="password" style="color: white;">Password</label>
+        <input id="password" type="password">
+        <span></span>
+      </div>
+      <div><a href="/login/forgot.html">Forgot Password?</a></div>
+      <br>
+      <hr>
+      <input style="float: left; margin-top: 3rem;" class="exam-submit" type="submit" value="Login">
+      <button style="float: right; margin-top: 3rem;" class="exam-submit" type="button"
+        onclick="window.location.href='login/signup.html';">Sign Up</button>
+    </form>
+    
   </div>
 
-  <footer id="footer-login">
+  <footer id="footer-index">
     <div class="footer-links">
       <p><a href="contact.html">Contact</a></p>
       <p><a href="walloffame.html">Wall of Fame</a></p>
       <p><a href="career.html">Career</a></p>
     </div>
     <div>
-      <h3>Follow us</h3>
       <a href="https://instagram.com">
         <img src="./images/instagram-logo.png" alt="Instagram logo">
       </a>
@@ -77,8 +120,6 @@
       </a>
     </div>
   </footer>
-
-
 
 </body>
 
