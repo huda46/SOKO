@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
   <meta charset="UTF-8">
-
+  <meta name="description" content="This is the webpage for booking exam slot.">
+  <meta name="keywords" content="Course, Exam, Language, Spanish, German, Hindi">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -18,6 +19,25 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "SOKO",
+      "image": "/images/soko_logo.png",
+      "@id": "",
+      "url": "https://sokolucifer.netlify.app/contact.html",
+      "telephone": "+49-10015252329",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "403-5, Erich Wienert Str 4, App. 403-5,",
+        "addressLocality": "Cottbus",
+        "postalCode": "03046",
+        "addressCountry": "DE"
+      }  
+    }
+    </script>
 
 </head>
 
@@ -42,8 +62,11 @@
   <main id="exam-main">
     <div class="box-exam">
 
-
+      <br>
       <h1 id="exam-h1">Exam Registration</h1>
+      <br>
+      <br>
+      <hr>
       <!-- <form id="exam-form">
         <div class="textField">
           <label id="label-exam">*Name</label>
@@ -149,22 +172,24 @@
           <input type="time" id="exam-time-input" min="08:00" max="18:00" required>
           <span></span>
         </div>
-        <input type="submit" value="Submit">
+        <br>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <input class="exam-submit" type="submit" value="Submit">
       </form>
     </div>
   </main>
 
 
-  <!--Footer -->
-  <footer>
+  <footer id="footer-index" style="margin-top: 4rem;">
     <div class="footer-links">
       <p><a href="contact.html">Contact</a></p>
       <p><a href="walloffame.html">Wall of Fame</a></p>
       <p><a href="career.html">Career</a></p>
     </div>
     <div>
-    <div class = "icons">
-      <h3>Follow us</h3>
       <a href="https://instagram.com">
         <img src="./images/instagram-logo.png" alt="Instagram logo">
       </a>
@@ -174,7 +199,6 @@
       <a href="https://facebook.com">
         <img src="./images/facebook-logo.png" alt="Facebook logo">
       </a>
-    </div>
     </div>
   </footer>
 
